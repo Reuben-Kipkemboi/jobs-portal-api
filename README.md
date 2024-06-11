@@ -431,3 +431,15 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+## PROCESS
+1. First fork the repository.
+2. Clone the repository using the command `git clone <link>`
+3. Create a branch to work your changes on using commands ``git branch <branchname>` or `git checkout -b <branch_name>`
+4. To push changes  follow the following:
+ - `git status` - To check status of the changes made and the files affected
+ - `git add .` To stage changes
+ - `git commit -m "<commit message>"`
+ - `git push origin feature-update`
